@@ -10,7 +10,7 @@ class EgitimPlatformu:
         self.style = ttk.Style()
         self.style.theme_use("clam")
 
-        self.label_kategori = ttk.Label(pencere, text="Kategori Seçin:", font=("Helvetica", 14))
+        self.label_kategori = ttk.Label(pencere, text="Ders Seçin:", font=("Helvetica", 14))
         self.label_kategori.pack(pady=10)
 
         self.combobox_kategori = ttk.Combobox(pencere, values=["Python", "Veri Bilimi", "Web Geliştirme", "Matematik"], font=("Helvetica", 12))
